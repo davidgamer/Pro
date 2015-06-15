@@ -10,7 +10,11 @@ var http = require('http');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var home = require('./routes/home');
-var sissuas = require('./routes/sissuas');
+<<<<<<< HEAD
+
+=======
+var sisuas = require('./routes/sisuas');
+>>>>>>> ff97633146643122448d6dce3d838e170ca63f44
 
 var app = express();
 
@@ -28,9 +32,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
-app.use('/home',home);
-app.use('/sissuas',sissuas);
+<<<<<<< HEAD
 
+
+=======
+app.use('/home', home);
+app.use('/sisuas', sisuas);
+>>>>>>> ff97633146643122448d6dce3d838e170ca63f44
 
 
 //load('models').then('controllers').then('routes').into(app);
