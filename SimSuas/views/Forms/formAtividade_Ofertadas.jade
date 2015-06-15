@@ -1,13 +1,11 @@
 
+script(src='/javascripts/hide.js')
 
-div(class ="control-group") Atividades Ofertadas no CRAS No Mês de Referencia 
+div(class ="control-group" id="toogle") Atividades Ofertadas no CRAS No Mês de Referencia 
+        
+  
+          
          
-      button(type="button" class="btn btn-success")
-          span(class="glyphicon glyphicon-plus") Mostrar
-          
-          
-      button(type="button" class="btn btn-warning")
-          span(class="glyphicon glyphicon-minus") Ocultar
           
  form(class="form-horizontal")
        
@@ -150,6 +148,6 @@ form(class="form-horizontal")
     label(class="control-label" for="rd") Não
       input(name="rd" id="rd-1" value="Nao" type="radio")
       
-  
         
-  
+ button(type="button" class="btn btn-success" id="show")
+  span(class="glyphicon glyphicon-plus") Mostrar/ Ocultar
