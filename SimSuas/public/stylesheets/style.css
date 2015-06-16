@@ -22,7 +22,7 @@ a:hover {
 
 footer{
   
-  padding-top: 75%;
+  padding-top: 175%;
   
   
   
@@ -35,3 +35,9 @@ span{
   
 }
 
+fieldset{
+
+  
+text-align: left;
+  
+}
