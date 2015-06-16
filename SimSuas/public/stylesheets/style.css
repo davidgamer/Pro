@@ -3,6 +3,7 @@ body {
   padding: 60px;
   font: 24px "Lucida Grande", Helvetica, Arial, sans-serif;
   text-align: justify;
+
   
 }
 
@@ -32,12 +33,5 @@ span{
   text-align: justify;
   line-height: 1.5cm;
  
-  
-}
-
-fieldset{
-
-  
-text-align: left;
   
 }
