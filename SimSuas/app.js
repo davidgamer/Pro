@@ -9,11 +9,9 @@ var http = require('http');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var home = require('./routes/home');
 
+var sisuas = require('./routes/sisuas');
 
-
-var sisuas = require('./routes/sissuas');
 
 
 var app = express();
@@ -32,9 +30,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/sisuas', sisuas)
 
-app.use('/home', home);
-app.use('/sissuas', sisuas);
+
+
 
 
 
